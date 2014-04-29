@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/raptorapi/raptorapi.iml" filepath="$PROJECT_DIR$/raptorapi/raptorapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/angular.iml" filepath="$PROJECT_DIR$/angular.iml" />
     </modules>
   </component>
 </project>

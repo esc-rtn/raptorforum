@@ -23,8 +23,8 @@ angular.module("raptorforum").controller "MainCtrl", ['$scope', 'Topic', ($scope
 
   $scope.addTopic = () ->
     $scope.topic.poster = "Dionysos25"
-    debugger
     $scope.result = $scope.topic.save()
+    debugger
 
   $scope.selectPage = (page) ->
     $scope.selectedPage = page;

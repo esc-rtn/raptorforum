@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="IdProvider" IDEtalkID="DDFE15188FF69AB5C75C7324F9910227" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <type id="JRUBY" />
+  </component>
+  <component name="IdProvider" IDEtalkID="FAC66400A92029719EAF5EC25AFA19F3" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
