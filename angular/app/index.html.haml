@@ -1,0 +1,57 @@
+%html
+  %head
+    %meta{"charset" => "utf-8"}
+    %title
+    %meta{"name" => "description", "content"=>""}
+    %meta{"name" => "viewport", "content" => "width=device-width"}
+    / build:css styles/vendor.css
+    / bower:css
+    %link{"rel" => "stylesheet", "href" => "bower_components/bootstrap/dist/css/bootstrap.css"}
+    / endbower
+    / endbuild
+    / build:css({.tmp,app}) styles/main.css
+    %link{"rel" => "stylesheet", "href"=>"styles/main.css"}
+    / endbuild
+
+  %body{"ng-app"=>"raptorforum"}
+    %div.col-lg-1
+    %div.col-lg-10
+      %div.header
+        %ul.nav.nav-pills.pull-right
+          %li{"ng-class"=>"{active: selectedPage == 'Home'}"}
+            %a{"ng-href" => "#", "ng-click" => "selectPage('Home')"} Home
+          %li{"ng-class"=>"{active: selectedPage == 'About'}"}
+            %a{"ng-href" => "#/about", "ng-click" => "selectPage('About')"} About
+          %li{"ng-class"=>"{active: selectedPage == 'Contact'}"}
+            %a{"ng-href" => "#/contact", "ng-click" => "selectPage('Contact')"} Contact
+        %p.lead.text-muted{"style"=>"font-size:45px"} raptorforum
+      / content
+      %div{"ng-view"=>""}
+
+      %div.clearfix
+
+      %div.footer{"style"=>"margin-top: 30px"}
+        %p
+          %span.glyphicon.glyphicon-copyright-mark
+          2014 Brad Stewart (Github: @esc-rtn)
+    %div.col-lg-1
+    / build:js scripts/vendor.js
+    / bower:js
+    %script{"src"=>"bower_components/jquery/dist/jquery.js"}
+    %script{"src"=>"bower_components/angular/angular.js"}
+    %script{"src"=>"bower_components/bootstrap/dist/js/bootstrap.js"}
+    %script{"src"=>"bower_components/angular-resource/angular-resource.js"}
+    %script{"src"=>"bower_components/angular-cookies/angular-cookies.js"}
+    %script{"src"=>"bower_components/angular-sanitize/angular-sanitize.js"}
+    %script{"src"=>"bower_components/angular-route/angular-route.js"}
+    / endbower
+    / endbuild
+
+    / build:js({.tmp,app}) scripts/scripts.js
+    %script{"src"=>"scripts/app.js"}
+    %script{"src"=>"scripts/controllers/main_ctrl.js"}
+    %script{"src"=>"scripts/controllers/about_ctrl.js"}
+    %script{"src"=>"scripts/controllers/contact_ctrl.js"}
+    %script{"src"=>"scripts/models/post.js"}
+    %script{"src"=>"scripts/models/topic.js"}
+    / endbuild

@@ -1,0 +1,31 @@
+%div{"style"=>"display: block"}
+  %div.col-lg-8
+    %div.panel.panel-default
+      %div.panel-heading
+        %input{"type"=>"text", "ng-model"=>"topic.title"}
+      %div.panel-body
+        %input{"type"=>"text", "ng-model"=>"topic.Content"}
+      %div.panel-footer
+        %button.btn.btn-primary.pull-right{"ng-click"=>"addTopic()"}
+          Add
+    %div.panel.panel-default
+      %div.panel-heading
+        %h5 {{topic.title}}
+      %div.panel-body
+        {{topic.content}}
+      %div.panel-footer
+        Author: {{topic.poster}}
+
+  %div.col-lg-4
+    %div.panel.panel-default
+      %div.panel-body
+        %div{"ng-repeat"=>"message in chat"}
+          %span{"style"=>"color:#428bca"}
+            {{message.user}}:
+          %span
+            {{message.message}}
+      %div.panel-footer
+        %form{"role"=>"search"}
+          %input.form-control.pull-left{"style"=>"width:80%","placeholder"=>"Type Message", "type"=>"text"}
+          %button.btn.btn-default.pull-right{"style"=>"width:19%","type"=>"submit"} Send
+        %div.clearfix
