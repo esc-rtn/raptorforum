@@ -1,37 +1,20 @@
 class TopicsController < ApplicationController
-  before_action :set_topic, only: [:show, :edit, :update, :destroy]
-
-  # GET /topics
-  # GET /topics.json
-  def index
-    @topics = Topic.all
-  end
-
-  # GET /topics/1
-  # GET /topics/1.json
-  def show
-  end
-
-  # GET /topics/new
-  def new
-    @topic = Topic.new
-  end
-
-  # GET /topics/1/edit
-  def edit
-  end
+  skip_before_filter  :verify_authenticity_token
+  respond_to :json
 
   # POST /topics
   # POST /topics.json
   def create
-    @topic = Topic.new(topic_params)
+    @topic = Topic.new()
+
+    @topic.title = params[:title]
+    @topic.content = params[:content]
+    @topic.poster = params[:poster]
 
     respond_to do |format|
       if @topic.save
-        format.html { redirect_to @topic, notice: 'Topic was successfully created.' }
         format.json { render :show, status: :created, location: @topic }
       else
-        format.html { render :new }
         format.json { render json: @topic.errors, status: :unprocessable_entity }
       end
     end
@@ -42,10 +25,8 @@ class TopicsController < ApplicationController
   def update
     respond_to do |format|
       if @topic.update(topic_params)
-        format.html { redirect_to @topic, notice: 'Topic was successfully updated.' }
         format.json { render :show, status: :ok, location: @topic }
       else
-        format.html { render :edit }
         format.json { render json: @topic.errors, status: :unprocessable_entity }
       end
     end
@@ -56,7 +37,6 @@ class TopicsController < ApplicationController
   def destroy
     @topic.destroy
     respond_to do |format|
-      format.html { redirect_to topics_url }
       format.json { head :no_content }
     end
   end
@@ -69,6 +49,6 @@ class TopicsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def topic_params
-      params.require(:topic).permit(:description, :content, :postdate)
+      params.require(:title, :content).permit(:postdate, :poster)
     end
 end

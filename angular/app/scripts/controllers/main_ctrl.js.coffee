@@ -1,9 +1,9 @@
 "use strict"
-angular.module("raptorforum").controller "MainCtrl", ($scope) ->
+angular.module("raptorforum").controller "MainCtrl", ['$scope', 'Topic', ($scope, Topic) ->
 
   $scope.selectedPage = 'Home'
 
-  $scope.topic = new Topic();
+  $scope.topic = Topic;
 
   $scope.post =
     title: "Post Title"
@@ -22,11 +22,12 @@ angular.module("raptorforum").controller "MainCtrl", ($scope) ->
   ]
 
   $scope.addTopic = () ->
-    topicFactory = TopicFactory()
     $scope.topic.poster = "Dionysos25"
-    topicFactory.create($scope.topic)
+    debugger
+    $scope.result = $scope.topic.save()
 
   $scope.selectPage = (page) ->
     $scope.selectedPage = page;
 
     return
+]

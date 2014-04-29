@@ -4,7 +4,7 @@
       %div.panel-heading
         %input{"type"=>"text", "ng-model"=>"topic.title"}
       %div.panel-body
-        %input{"type"=>"text", "ng-model"=>"topic.Content"}
+        %input{"type"=>"text", "ng-model"=>"topic.content"}
       %div.panel-footer
         %button.btn.btn-primary.pull-right{"ng-click"=>"addTopic()"}
           Add
@@ -12,7 +12,7 @@
       %div.panel-heading
         %h5 {{topic.title}}
       %div.panel-body
-        {{topic.content}}
+        {{result}}
       %div.panel-footer
         Author: {{topic.poster}}
 

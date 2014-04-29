@@ -64,7 +64,7 @@ module.exports = function (grunt) {
       },
       livereload: {
         options: {
-          livereload: '<%= connect.options.livereload %>'
+          livereload: '<%= connect.server.options.livereload %>'
         },
         files: [
           '<%= yeoman.app %>/{,*/}*.html',
@@ -77,44 +77,47 @@ module.exports = function (grunt) {
 
     // The actual grunt server settings
     connect: {
-      options: {
-        port: 9000,
-        // Change this to '0.0.0.0' to access the server from outside.
-        hostname: 'localhost',
-        livereload: 35729
-      },
-      proxies: [{
-          context: '/yo', // the context of the data service
-          host: 'localhost', // wherever the data service is running
-          port: 3000 // the port that the data service is running on
-      }],
-      livereload: {
-        options: {
-          open: true,
-          base: [
-            '.tmp',
-            '<%= yeoman.app %>'
-          ],
-          middleware: function (connect, options) {
-              if (!Array.isArray(options.base)) {
-                  options.base = [options.base];
+      server: {
+          options: {
+              port: 9000,
+              hostname: 'localhost',
+              livereload: 35729
+          },
+          proxies: [
+              {
+                  context: '/api', // the context of the data service
+                  host: 'localhost', // wherever the data service is running
+                  port: 3000 // the port that the data service is running on
               }
+          ]
+      },
+      livereload: {
+          options: {
+              open: true,
+              base: [
+                  '.tmp',
+                  '<%= yeoman.app %>'
+              ],
+              middleware: function (connect, options) {
+                  if (!Array.isArray(options.base)) {
+                      options.base = [options.base];
+                  }
 
-              // Setup the proxy
-              var middlewares = [require('grunt-connect-proxy/lib/utils').proxyRequest];
+                  // Setup the proxy
+                  var middlewares = [require('grunt-connect-proxy/lib/utils').proxyRequest];
 
-              // Serve static files.
-              options.base.forEach(function(base) {
-                  middlewares.push(connect.static(base));
-              });
+                  // Serve static files.
+                  options.base.forEach(function(base) {
+                      middlewares.push(connect.static(base));
+                  });
 
-              // Make directory browse-able.
-              var directory = options.directory || options.base[options.base.length - 1];
-              middlewares.push(connect.directory(directory));
+                  // Make directory browse-able.
+                  var directory = options.directory || options.base[options.base.length - 1];
+                  middlewares.push(connect.directory(directory));
 
-              return middlewares;
+                  return middlewares;
+              }
           }
-        }
       },
       test: {
         options: {
@@ -188,6 +191,7 @@ module.exports = function (grunt) {
         ignorePath: '<%= yeoman.app %>/'
       }
     },
+
     haml: {
         options: {
             language: 'ruby'
@@ -201,6 +205,33 @@ module.exports = function (grunt) {
             flatten: false
         }
     },
+
+      // Compiles CoffeeScript to JavaScript
+    coffee: {
+          options: {
+              sourceMap: true,
+              sourceRoot: ''
+          },
+          dist: {
+              files: [{
+                  expand: true,
+                  cwd: '<%= yeoman.app %>/scripts',
+                  src: '**/*.coffee',
+                  dest: '.tmp/scripts',
+                  ext: '.js'
+              }]
+          },
+          test: {
+              files: [{
+                  expand: true,
+                  cwd: 'test/spec',
+                  src: '**/*.coffee',
+                  dest: '.tmp/spec',
+                  ext: '.js'
+              }]
+          }
+      },
+
     // Renames files for browser caching purposes
     rev: {
       dist: {
@@ -344,12 +375,15 @@ module.exports = function (grunt) {
     // Run some tasks in parallel to speed up the build process
     concurrent: {
       server: [
-        'copy:styles'
+        'copy:styles',
+        'coffee:dist'
       ],
       test: [
+        'coffee',
         'copy:styles'
       ],
       dist: [
+        'coffee',
         'copy:styles',
         'imagemin',
         'svgmin'
