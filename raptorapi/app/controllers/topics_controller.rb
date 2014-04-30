@@ -17,6 +17,11 @@ class TopicsController < ApplicationController
     render json: @topic
   end
 
+  #GET /topics/1/replies
+  def getReplies
+    @replies = Reply.where(topic_id = params[:id])
+  end
+
   # POST /topics
   # POST /topics.json
   def create

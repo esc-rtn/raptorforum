@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
+  resources :replies, except: [:new, :edit]
   scope(:path => '/api') do
     resources :topics, except: [:new, :edit]
+    match "/topics/:id/replies" => "topics#getReplies", via: [:get]
   end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

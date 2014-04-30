@@ -1,7 +1,6 @@
 "use strict"
-angular.module("raptorforum", ["ngCookies","ngResource","ngSanitize","ngRoute"])
+angular.module("raptorforum", ["ngCookies","ngResource","ngSanitize","ngRoute", "textAngular"])
 .config ($routeProvider, $httpProvider) ->
-  $httpProvider.defaults.headers.common['X-CSRF-Token'] = $('meta[name=csrf-token]').attr('content')
   $routeProvider.when("/",
     templateUrl: "views/main.html"
     controller: "MainCtrl"

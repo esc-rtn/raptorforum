@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e0deecb-710c-4d91-a10a-e637f21991c3" name="Default" comment="" />
-    <ignored path="angular.iws" />
+    <list default="true" id="cba64a4b-8431-4375-a5ff-0a03d963cdc0" name="Default" comment="" />
+    <ignored path="raptorapi.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/topic_svc.js.coffee" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398839568470" ignored="false" />
-    <file path="$PROJECT_DIR$/../raptorapi/app/controllers/topics_controller.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398839143866" ignored="false" />
-    <file path="/topics_controller.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398838798240" ignored="false" />
-    <file path="/main_ctrl.js.coffee" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398828834151" ignored="false" />
-    <file path="/main.html.haml" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398840382019" ignored="false" />
-    <file path="$PROJECT_DIR$/.tmp/styles/main.css" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398840444898" ignored="false" />
-    <file path="/index.html.haml" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398824959427" ignored="false" />
-    <file path="/app.js.coffee" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398823605675" ignored="false" />
-    <file path="$PROJECT_DIR$/.tmp/scripts/services/topic_svc.js" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398829027175" ignored="false" />
-    <file path="$PROJECT_DIR$/../raptorapi/config/routes.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398839723329" ignored="false" />
-    <file path="$PROJECT_DIR$/../raptorapi/app/controllers/replies_controller.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398839594611" ignored="false" />
-    <file path="/replies_controller.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398838666647" ignored="false" />
-    <file path="$PROJECT_DIR$/../raptorapi/app/models/topic.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398838466662" ignored="false" />
-    <file path="/topic.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398838466662" ignored="false" />
-    <file path="$PROJECT_DIR$/../raptorapi/app/models/reply.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398829418254" ignored="false" />
-    <file path="/reply.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398829417486" ignored="false" />
-    <file path="$PROJECT_DIR$/../raptorapi/db/migrate/20140430035122_add_topic_id_to_replies.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398830306463" ignored="false" />
-    <file path="/20140430035122_add_topic_id_to_replies.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398830301456" ignored="false" />
-    <file path="$PROJECT_DIR$/../raptorapi/db/migrate/20140430033943_create_replies.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398830652826" ignored="false" />
-    <file path="/20140430033943_create_replies.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398830474661" ignored="false" />
-    <file path="$PROJECT_DIR$/../raptorapi/db/migrate/20140429172552_create_topics.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398837723560" ignored="false" />
-    <file path="/20140429172552_create_topics.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398837641235" ignored="false" />
-    <file path="/Dummy.txt" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398838848028" ignored="false" />
-    <file path="/routes.rb" changelist="1e0deecb-710c-4d91-a10a-e637f21991c3" time="1398839139905" ignored="false" />
+    <file path="$PROJECT_DIR$/../angular/app/scripts/services/topic_svc.js.coffee" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398839568470" ignored="false" />
+    <file path="/topic_svc.js.coffee" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398839568470" ignored="false" />
+    <file path="$PROJECT_DIR$/../angular/app/scripts/controllers/main_ctrl.js.coffee" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398828834151" ignored="false" />
+    <file path="/main_ctrl.js.coffee" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398828834151" ignored="false" />
+    <file path="$PROJECT_DIR$/../angular/app/views/main.html.haml" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398840522964" ignored="false" />
+    <file path="/main.html.haml" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398840382019" ignored="false" />
+    <file path="$PROJECT_DIR$/../angular/app/index.html.haml" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398824959427" ignored="false" />
+    <file path="/index.html.haml" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398824959427" ignored="false" />
+    <file path="$PROJECT_DIR$/../angular/app/scripts/app.js.coffee" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398826650685" ignored="false" />
+    <file path="/app.js.coffee" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398823605675" ignored="false" />
+    <file path="$PROJECT_DIR$/../angular/app/styles/main.css" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398825130418" ignored="false" />
+    <file path="$PROJECT_DIR$/../angular/.tmp/styles/main.css" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398840444898" ignored="false" />
+    <file path="$PROJECT_DIR$/../angular/.tmp/scripts/services/topic_svc.js" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398829027175" ignored="false" />
+    <file path="/topics_controller.rb" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398838798240" ignored="false" />
+    <file path="/replies_controller.rb" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398838666647" ignored="false" />
+    <file path="/topic.rb" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398838466662" ignored="false" />
+    <file path="/reply.rb" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398829417486" ignored="false" />
+    <file path="/20140430035122_add_topic_id_to_replies.rb" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398830301456" ignored="false" />
+    <file path="/20140430033943_create_replies.rb" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398830474661" ignored="false" />
+    <file path="/20140429172552_create_topics.rb" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398837641235" ignored="false" />
+    <file path="/Dummy.txt" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398838848028" ignored="false" />
+    <file path="/routes.rb" changelist="cba64a4b-8431-4375-a5ff-0a03d963cdc0" time="1398839139905" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,32 +82,32 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="angular" />
+    <favorites_list name="raptorapi" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main_ctrl.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main_ctrl.js.coffee">
+      <file leaf-file-name="topics_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="81" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="47" selection-end="95" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/main.html.haml">
+      <file leaf-file-name="replies_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/replies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="92" selection-start="997" selection-end="997" vertical-scroll-proportion="0.27300304">
+            <state line="4" column="59" selection-start="136" selection-end="136" vertical-scroll-proportion="0.08275862">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topic_svc.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/services/topic_svc.js.coffee">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="166" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+            <state line="44" column="38" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,17 +123,27 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/index.html.haml" />
-        <option value="$PROJECT_DIR$/app/styles/main.css" />
-        <option value="$PROJECT_DIR$/app/scripts/app.js.coffee" />
-        <option value="$PROJECT_DIR$/app/scripts/controllers/main_ctrl.js.coffee" />
-        <option value="$PROJECT_DIR$/app/scripts/services/topic_svc.js.coffee" />
-        <option value="$PROJECT_DIR$/app/views/main.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/reply.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140430035122_add_topic_id_to_replies.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140430033943_create_replies.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20140429172552_create_topics.rb" />
+        <option value="$PROJECT_DIR$/app/models/topic.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/topics_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/replies_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="19" />
+    <option name="y" value="44" />
     <option name="width" value="1920" />
     <option name="height" value="1174" />
   </component>
@@ -165,32 +173,80 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
+              <option name="myItemId" value="raptorapi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
+              <option name="myItemId" value="raptorapi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
+              <option name="myItemId" value="raptorapi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
+              <option name="myItemId" value="raptorapi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
+              <option name="myItemId" value="raptorapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raptorapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raptorapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raptorapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raptorapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raptorapi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="raptorapi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -200,95 +256,15 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
+              <option name="myItemId" value="raptorapi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
+              <option name="myItemId" value="raptorapi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angular" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -298,29 +274,79 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.Java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../raptorapi" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Rails.raptorapi">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
+      <module name="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -331,17 +357,24 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
       <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -370,6 +403,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -408,7 +454,37 @@
       <patterns />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="raptorapi" type="RailsRunConfigurationType" factoryName="Rails">
+      <predefined_log_file id="RUBY_RAILS_SERVER" enabled="true" />
+      <module name="raptorapi" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="true" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="RVM: ruby-2.0.0-p247" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="default" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Rails.raptorapi" />
+    </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -417,14 +493,14 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1e0deecb-710c-4d91-a10a-e637f21991c3" name="Default" comment="" />
-      <created>1398793305831</created>
-      <updated>1398793305831</updated>
+      <changelist id="cba64a4b-8431-4375-a5ff-0a03d963cdc0" name="Default" comment="" />
+      <created>1398808732852</created>
+      <updated>1398808732852</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="1174" extended-state="6" />
+    <frame x="19" y="44" width="1920" height="1174" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -432,7 +508,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28557876" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -444,7 +520,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18569905" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18569905" sideWeight="0.7144213" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -514,79 +590,65 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main_ctrl.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="63" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/topic_svc.js.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="46" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main_ctrl.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/topic_svc.js.coffee">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140430061144_create_topics.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="58" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20140430060650_create_replies.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="90" selection-start="655" selection-end="655" vertical-scroll-proportion="-11.875">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/app.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/models/reply.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="42" selection-start="151" selection-end="151" vertical-scroll-proportion="0.029239766">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+    <entry file="file://$PROJECT_DIR$/app/models/topic.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="207" selection-end="207" vertical-scroll-proportion="0.1754386">
+        <state line="1" column="19" selection-start="52" selection-end="52" vertical-scroll-proportion="0.020689655">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/topic_svc.js.coffee">
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="166" selection-start="839" selection-end="839" vertical-scroll-proportion="0.0">
+        <state line="44" column="38" selection-start="1346" selection-end="1346" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main_ctrl.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/controllers/topics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="81" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
+        <state line="1" column="0" selection-start="47" selection-end="95" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/main.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/controllers/replies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="92" selection-start="997" selection-end="997" vertical-scroll-proportion="0.27300304">
+        <state line="4" column="59" selection-start="136" selection-end="136" vertical-scroll-proportion="0.08275862">
           <folding />
         </state>
       </provider>

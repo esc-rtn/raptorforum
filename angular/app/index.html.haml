@@ -11,6 +11,7 @@
     / endbuild
     / build:css({.tmp,app}) styles/main.css
     %link{"rel" => "stylesheet", "href"=>"styles/main.css"}
+    %link{"rel" => "stylesheet", "href"=>"bower_components/fontawesome/css/font-awesome.min.css"}
     / endbuild
 
   %body{"ng-app"=>"raptorforum"}
@@ -44,6 +45,12 @@
     %script{"src"=>"bower_components/angular-cookies/angular-cookies.js"}
     %script{"src"=>"bower_components/angular-sanitize/angular-sanitize.js"}
     %script{"src"=>"bower_components/angular-route/angular-route.js"}
+    %script{"src"=>"bower_components/textAngular/textAngular-sanitize.min.js"}
+    %script{"src"=>"bower_components/textAngular/textAngular.min.js"}
+    %script{"src"=>"bower_components/rangy/rangy-core.js"}
+    %script{"src"=>"bower_components/rangy/rangy-selectionsaverestore.js"}
+    %script{"src"=>"bower_components/rangy/rangy-serializer.js"}
+    %script{"src"=>"bower_components/rangy/rangy-cssclassapplier.js"}
     / endbower
     / endbuild
 

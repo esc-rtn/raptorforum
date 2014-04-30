@@ -1,20 +1,37 @@
 %div{"style"=>"display: block"}
   %div.col-lg-8
-    %div.panel.panel-default
-      %div.panel-heading
-        %input{"type"=>"text", "ng-model"=>"topic.title"}
-      %div.panel-body
-        %input{"type"=>"text", "ng-model"=>"topic.content"}
-      %div.panel-footer
-        %button.btn.btn-primary.pull-right{"ng-click"=>"addTopic()"}
-          Add
-    %div.panel.panel-default
-      %div.panel-heading
-        %h5 {{topic.title}}
-      %div.panel-body
-        {{result}}
-      %div.panel-footer
-        Author: {{topic.poster}}
+    %div.panel-group{"id"=>"accordion"}
+      %div.panel.panel-default
+        %div.panel-heading
+          %h4.panel-title
+            %a{"data-toggle"=>"collapse", "data-parent"=>"#accordion", "href"=>"#collapseNewTopic", "onclick"=>"return false;"}New Topic
+        %div.panel-collapse.collapse{"id"=>"collapseNewTopic"}
+          %div.panel-body
+            %form{"role"=>"form"}
+              %div.form-group
+                %input.form-control{"type"=>"text", "ng-model"=>"topic.title", "placeholder"=>"Enter Subject"}
+              %div.form-group
+                %div.ta-editor{"text-angular"=>"","ng-model"=>"topic.content","ta-toolbar"=>"[['h1','h2','h3'],['bold','italics','underline'],['ul','ol'],['undo','redo'],['insertImage','insertLink','unlink']]"}
+              %div.form-group
+                %button.btn.btn-primary{"ng-click"=>"addTopic()"}
+                  Add
+
+      %div.panel.panel-default{"ng-repeat"=>"post in topicList"}
+        %div.panel-heading
+          %div.panel-title
+            %a{"data-toggle"=>"collapse", "data-parent"=>"#accordion", "href"=>"#collapseTopic{{post.id}}", "onclick"=>"return false;"}{{post.title}}
+        %div.panel-collapse.collapse{"id"=>"collapseTopic{{post.id}}"}
+          %div.panel-body{"ng-bind-html"=>"post.content"}
+          %div.panel-footer
+            %a{"data-toggle"=>"collapse", "data-target" => "#replyForm"}
+              Post Reply
+      %div#replyForm.collapse
+        %form{"role"=>"form"}
+          %div.form-group
+            %div.ta-editor{"text-angular"=>"","ng-model"=>"post.content","ta-toolbar"=>"[['h1','h2','h3'],['bold','italics','underline'],['ul','ol'],['undo','redo'],['insertImage','insertLink','unlink']]"}
+          %div.form-group
+            %button.btn.btn-primary{"ng-click"=>"addReply(post.id)"}
+              Add
 
   %div.col-lg-4
     %div.panel.panel-default
